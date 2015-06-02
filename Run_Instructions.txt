@@ -1,0 +1,29 @@
+========================
+BUILD OUTPUT DESCRIPTION
+========================
+
+In command prompt "cd" to the directory "bxk131030" to run jar file
+
+Step1 >> Place the csv file in the same folder (bxk131030)
+
+Step2 >> From command line run: java -jar "MyDatabase.jar" 
+
+Step 3 >> Enter "1" for parsing CSV file
+
+Step 4 >> Enter "2" for running Query
+
+Step 4.1 >> Enter the number for the field on which you want to run query for example "1" for id field
+
+Step 4.2 >> Enter the operator such as "=", "<"
+
+Step 4.3 >> Enter the value such as "470", "H E B"
+
+Step 4.4 >> Enter y if want to run a new query(i.e. repeat step 4 for a new query) or Enter any other key to exit
+
+=============
+Tools USED
+=============
+
+1) Programming Language: JAVA
+2) IDE: NetBeans
+3) Libraries: CSVReader, RandomAccessFile, HashMap, TreeMap, FileInputStream, FileOutputStream, ObjectInputStream, ObjectOutputStream
